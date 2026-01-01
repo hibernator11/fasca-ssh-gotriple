@@ -33,8 +33,13 @@ def plot_subject_diversity(host, df, column_name, years, r_scale=1):
     for year in X:
         print(year)
         values = df[df.year <= year][column_name]
-        R.append(richness(values) / r_scale)
-        D.append(shannon_diversty_index(values))
+        #R.append(richness(values) / r_scale)
+        #D.append(shannon_diversty_index(values))
+        if len(values) != 0:
+            R.append(richness(values) / r_scale)
+            D.append(shannon_diversty_index(values))
+        else: 
+            X = np.delete(X, np.where(X==year)[0][0])
     if r_scale == 1:
         plt.plot(X, R, 's', label='richness')
     else: 
