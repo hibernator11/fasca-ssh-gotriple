@@ -165,4 +165,5 @@ plot_subject_diversity(host, language,
                         range(first, last + 1),  
                         scale)
 
-print('DR_RATE=', dr_rate(df.keywords_extracted))
+dfShannon = df[df.year.between(first,last)]
+print('DR_RATE=', dr_rate(dfShannon.keywords_extracted))
