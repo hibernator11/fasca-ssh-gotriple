@@ -131,7 +131,7 @@ def extract_data(path, language, create_log):
 
     df["year"] = df['date_published'].str.extract('(\d{4})', expand=True) 
     df["year"] = pd.to_numeric(df["year"])
-    df.dropna()
+    df.dropna(subset=["year"], inplace=True)
     print(df["year"].unique())
 
     df = df[(df.year!='')&(df.keywords_extracted.str.len() > 1)]
