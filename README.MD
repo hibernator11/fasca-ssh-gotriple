@@ -7,8 +7,11 @@ A selection of datasets were extracted from GoTriple using its API. Several topi
 
 Diversity indices can be useful to avoid silences and biases in data, as recommended by best practices and guidelines (e.g., Collections as Data and CARE principles). This is interesting for the research community as a way to provide a transparent method to measure diversity but also to create awareness of these type of data issues.
 
+After an analysis of the metatada elds provided by each of the results, a selection of elds were extracted to apply the diversity index: i) keywords; and language. For the analysis a period of time were established between 1998 and 2020. Since GoTriple is a multilingual repository, keywords are provided in several languages. As a result, we focused our analysis on particular languages (e.g., Spanish and English) to measure the diversity of keywords. The information about the language for keywords is not provided so we use an open software library to detect the language selected for the analysis. The following figure shows a selection of plots showing how the diversity and richness change over time.
 
-### Code
+
+
+## Code
 
 This code requires the following folders:
 
