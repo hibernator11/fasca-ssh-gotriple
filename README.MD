@@ -1,6 +1,8 @@
 # Fasca SSH example
 This work intends to provide examples of use based on the [GoTriple platform](https://www.gotriple.eu/), which provides a single access point to discover and reuse open scholarly Social Sciences and Humanities (SSH) resources and find peers.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/fasca-ssh-gotriple/HEAD)
+
 ## Introduction
 
 A selection of datasets were extracted from GoTriple using its API. Several topics were employed to query the system and retrieve JSON files as output. The topics employed to retrieve the data were "Race, ethnicity, and decolonization" and "Digital Humanities". Then, previous work concerning dirversity analysis of metadata was employed to perform an experiment to assess the diversity of the metadata fields keywords and language.
