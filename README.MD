@@ -25,3 +25,4 @@ This work is part of the FASCA initiative aiming at enriching GoTriple’s advan
 ### References
 - C. Carrasco, R., Candela, G. & Marco-Such, M. Measuring the diversity of data and metadata in digital libraries. Int J Digit Libr 26, 5 (2025). https://doi.org/10.1007/s00799-025-00411-1
 - Hill, M. O. 1973. Diversity and Evenness: A Unifying Notation and Its Consequences. Ecology 54 (2): 427432. https://doi.org/10.2307/1934352
+- Alkemade, H., Candela, G., Claeyssens, S., Colavizza, G., Eren, S., Freire, N., Irollo, A., Isaac, A., Lehmann, J., Neudecker, C., Osti, G., van Strien, D., & Wevers, M. (2025). Datasheets for Digital Cultural Heritage Datasets (Versión 2). Zenodo. https://doi.org/10.5281/zenodo.15828222
