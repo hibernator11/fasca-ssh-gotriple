@@ -1,5 +1,5 @@
 # Fasca SSH example
-This work intends to provide examples of use based on the GoTriple platform.
+This work intends to provide examples of use based on the [GoTriple platform](https://www.gotriple.eu/).
 
 
 ## Introduction
