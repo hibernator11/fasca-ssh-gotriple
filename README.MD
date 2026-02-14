@@ -1,16 +1,21 @@
 # Fasca SSH example
 This work intends to provide examples of use based on the [GoTriple platform](https://www.gotriple.eu/), which provides a single access point to discover and reuse open scholarly Social Sciences and Humanities (SSH) resources and find peers.
 
-
-
 ## Introduction
+
+A selection of datasets were extracted from GoTriple using its API. Several topics were employed to query the system and retrieve JSON files as output. The topics employed to retrieve the data were "Race, ethnicity, and decolonization" and "Digital Humanities". Then, previous work concerning dirversity analysis of metadata was employed to perform an experiment to assess the diversity of the metadata fields keywords and language.
+
+Diversity indices can be useful to avoid silences and biases in data, as recommended by best practices and guidelines (e.g., Collections as Data and CARE principles). This is interesting for the research community as a way to provide a transparent method to measure diversity but also to create awareness of these type of data issues.
+
+
+### Code
 
 This code requires the following folders:
 
 - input: json files
 - plots: outputs to illustrate the diversity
 
-The code analyses the diversity of the in_language and keywords fields. 
+The code analyses the diversity of the in_language and keywords fields. Note that the GoTriple API only retrieves 10.000 records per query.
 
 
 
@@ -26,3 +31,5 @@ This work is part of the FASCA initiative aiming at enriching GoTriple’s advan
 - C. Carrasco, R., Candela, G. & Marco-Such, M. Measuring the diversity of data and metadata in digital libraries. Int J Digit Libr 26, 5 (2025). https://doi.org/10.1007/s00799-025-00411-1
 - Hill, M. O. 1973. Diversity and Evenness: A Unifying Notation and Its Consequences. Ecology 54 (2): 427432. https://doi.org/10.2307/1934352
 - Alkemade, H., Candela, G., Claeyssens, S., Colavizza, G., Eren, S., Freire, N., Irollo, A., Isaac, A., Lehmann, J., Neudecker, C., Osti, G., van Strien, D., & Wevers, M. (2025). Datasheets for Digital Cultural Heritage Datasets (Versión 2). Zenodo. https://doi.org/10.5281/zenodo.15828222
+- Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data. Zenodo. https://doi.org/10.5281/zenodo.8342171
+- Carroll, S., Garba, I., Figueroa-Rodriguez, O., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J., Anderson, J., & Hudson, M. (2020). The CARE principles for Indigenous data governance. Data Science Journal, 19. https://doi.org/10.5334/dsj-2020-043
