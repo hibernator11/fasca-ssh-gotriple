@@ -17,7 +17,7 @@ This code requires the following folders:
 
 - input: json files
 - plots: outputs to illustrate the diversity
-
+- A Jupyter Notebook is included describing the code and process: [Diversity-FASCA-GoTriple](https://github.com/hibernator11/fasca-ssh-gotriple/blob/main/Diversity-FASCA-GoTriple.ipynb)
 The code analyses the diversity of the in_language and keywords fields. Note that the GoTriple API only retrieves 10.000 records per query.
 
 
