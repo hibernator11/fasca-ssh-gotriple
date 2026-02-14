@@ -14,12 +14,12 @@ The code analyses the diversity of the in_language and keywords fields.
 
 
 
-### Licence
+## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
 
 Please, note that the datasets used in this project have separate licences.
 
-### Acknowledgments
+## Acknowledgments
 This work is part of the FASCA initiative aiming at enriching GoTriple’s advanced services. FASCA has received funding through the OSCARS project via the European Commission’s Horizon Europe Research and Innovation programme under grant agreement No. 101129751.
 
 ### References
