@@ -1,5 +1,5 @@
 # Fasca SSH example
-This work intends to provide examples of use based on the [GoTriple platform](https://www.gotriple.eu/), which provides a single access point to discover and reuse open scholarly Social Sciences and Humanities (SSH) resources and find peers.
+This work intends to provide examples of use based on the [GoTriple platform](https://www.gotriple.eu/), which provides a single access point to discover and reuse open scholarly Social Sciences and Humanities (SSH) resources and find peers. The work was performed by a multidisciplinary team with researchers of different backgrounds.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/fasca-ssh-gotriple/HEAD)
 
