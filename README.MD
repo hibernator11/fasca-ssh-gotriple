@@ -3,6 +3,14 @@ This work intends to provide examples of use based on the [GoTriple platform](ht
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/fasca-ssh-gotriple/HEAD)
 
+## Auhors
+
+- Elena Battaner, Universidad Rey Juan Carlos
+- Gustavo Candela, Universidad de Alicante
+- Cezary Rosiński, Institute of Literary Research of the Polish Academy of Sciences
+- Paul Spence, King’s College London
+- Nikodem Wolczuk, Institute of Literary Research of the Polish Academy of Sciences
+
 ## Introduction
 
 A selection of datasets were extracted from GoTriple using its API. Several topics were employed to query the system and retrieve JSON files as output. The topics employed to retrieve the data were "Race, ethnicity, and decolonization" and "Digital Humanities". Then, previous work concerning dirversity analysis of metadata was employed to perform an experiment to assess the diversity of the metadata fields keywords and language.
@@ -39,7 +47,7 @@ The code can be also installed in a computer by following these steps:
 Please, note that the datasets used in this project have separate licences.
 
 ## Acknowledgments
-This work is part of the FASCA initiative aiming at enriching GoTriple’s advanced services. FASCA has received funding through the OSCARS project via the European Commission’s Horizon Europe Research and Innovation programme under grant agreement No. 101129751.
+This work is part of the FASCA initiative aiming at enriching GoTriple’s advanced services. FASCA has received funding through the OSCARS project via the European Commission’s Horizon Europe Research and Innovation programme under grant agreement No. 101129751. We would like to thank Rafael Carrasco for his idea to apply diversity indexes to metatada and content.
 
 ### References
 - C. Carrasco, R., Candela, G. & Marco-Such, M. Measuring the diversity of data and metadata in digital libraries. Int J Digit Libr 26, 5 (2025). https://doi.org/10.1007/s00799-025-00411-1
