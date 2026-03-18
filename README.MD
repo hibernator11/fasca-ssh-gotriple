@@ -21,6 +21,8 @@ After an analysis of the metatada fields provided by each of the results, a sele
 
 <img src="plots/diversity.png" width="50%">
 
+For more information, read the following <a href="https://github.com/hibernator11/fasca-ssh-gotriple/blob/main/gotriple-diversity.pdf">document</a>.
+
 ## Code
 
 This code requires the following folders:
